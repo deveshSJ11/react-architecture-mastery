@@ -1,0 +1,29 @@
+
+// App.jsx
+import "./App.css";
+import Button from "./Button.jsx";
+import Form from "./Form.jsx";
+import Counter from "./Counter.jsx";
+
+function App() {
+  return (
+    <div className="App">
+      <h1>React Events & State Example</h1>
+      
+      {/* Event Handling Example */}
+      <section>
+        <h2>Event Handling</h2>
+        <Button />
+        <Form />
+      </section>
+
+      {/* State Management Example */}
+      <section>
+        <h2>State with useState Hook</h2>
+        <Counter />
+      </section>
+    </div>
+  );
+}
+
+export default App;
