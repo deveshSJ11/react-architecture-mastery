@@ -1,17 +1,28 @@
-<<<<<<< HEAD
-# React + Vite
+# 📦 React Architecture Mastery
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A hands-on learning repository focused on building scalable and maintainable React applications using modern tools like Vite, JSX, and state management patterns.
 
-Currently, two official plugins are available:
+## 📖 About This Journey  
+This is a part of my structured learning journey where I explore advanced React concepts, component design patterns, dynamic rendering, and styling techniques. Each feature is documented with daily logs and reflections to reinforce best practices.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features Implemented So Far  
+✔ Environment setup with Vite for fast development  
+✔ Reusable components (`Title`, `Product`, `ProductTab`)  
+✔ JSX expressions, props, and conditional rendering  
+✔ Dynamic styling and responsive layouts  
+✔ Developer tools integration for debugging  
+✔ Structured documentation with learning logs and changelog  
+✔ Refactored ProductTab to handle dynamic product data  
+✔ Applied mobile-first responsive patterns for Amazon Cards  
+✔ Introduced interactivity with event handling (clicks, non-clicks, Event Object)
+✔ Learned and applied `useState` hook for managing component state
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# react-architecture-mastery
-Advanced React component architecture and performance optimization patterns. Engineering-focused approach to modern frontend development.
->>>>>>> 15b6ee3834abe704a461eeba86c262c9ad0e1579
+## 🛠 Tech Stack  
+- **React** – Component-driven UI architecture  
+- **Vite** – Fast build tooling with hot module replacement  
+- **CSS** – Styling components for a polished user experience  
+- **PropTypes** – Runtime validation of props  
+- **Git & GitHub** – Version control and collaboration
+
+## 📂 Project Structure  

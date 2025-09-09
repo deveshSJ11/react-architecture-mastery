@@ -1,14 +1,28 @@
-import "./App.css";
-import ProductTab from "./ProductStore/ProductTab.jsx";
-import Title from "./ProductStore/Title.jsx";
 
-function App(){
+// App.jsx
+import "./App.css";
+import Button from "./Button.jsx";
+import Form from "./Form.jsx";
+import Counter from "./Counter.jsx";
+
+function App() {
   return (
-    <main className="App">
-      <Title name="Devesh"/>
-      <h1>My Product Store 🛍️</h1>
-      <ProductTab />
-    </main>
+    <div className="App">
+      <h1>React Events & State Example</h1>
+      
+      {/* Event Handling Example */}
+      <section>
+        <h2>Event Handling</h2>
+        <Button />
+        <Form />
+      </section>
+
+      {/* State Management Example */}
+      <section>
+        <h2>State with useState Hook</h2>
+        <Counter />
+      </section>
+    </div>
   );
 }
 
