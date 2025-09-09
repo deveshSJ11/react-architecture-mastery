@@ -1,6 +1,6 @@
 # 📘 Engineering Learning Log
 
-A structured record of my progress while building projects with React and modern web technologies. Each entry summarizes what I built, technical insights, and next steps to continuously improve.
+A structured record of my progress while building projects with React and modern web technologies. Each entry summarizes what I built, key insights, definitions of important concepts, and next steps to continuously improve.
 
 ---
 
@@ -16,6 +16,10 @@ A structured record of my progress while building projects with React and modern
 - React’s declarative style makes building UI components intuitive.  
 - Vite’s hot module replacement improves developer experience.  
 - Starting with reusable components lays the foundation for scalable apps.
+
+### 📖 Key Concepts  
+- **JSX** – A syntax that looks like HTML but allows embedding JavaScript logic inside components.  
+- **Component** – A self-contained piece of UI that can be reused across the app.
 
 ### 🚀 Next Steps  
 - Explore component composition with props and lists.  
@@ -36,6 +40,10 @@ A structured record of my progress while building projects with React and modern
 - Handling props dynamically enables data-driven rendering.  
 - React fragments and lists are essential for complex UI structures.
 
+### 📖 Key Concepts  
+- **Props** – Inputs passed to components to display or manipulate data dynamically.  
+- **Conditional Rendering** – Rendering different UI elements based on certain conditions.
+
 ### 🚀 Next Steps  
 - Add state management with `useState`.  
 - Implement event handling for user interactions like “Add to Cart”.
@@ -55,6 +63,47 @@ A structured record of my progress while building projects with React and modern
 - Styling patterns with CSS enhance user experience and visual consistency.  
 - Breaking tasks into smaller activities reinforces learning.
 
+### 📖 Key Concepts  
+- **Styling** – Using CSS or style objects to improve the appearance and usability of components.  
+- **Developer Tools** – Browser extensions that allow inspecting, debugging, and optimizing component behavior.
+
 ### 🚀 Next Steps  
 - Expand state management and interaction logic.  
 - Explore performance optimization and accessibility practices.
+
+---
+
+## 📅 Date: 2025-09-09  
+**Focus:** Handling events and using state with useState hook in React
+
+### ✅ Work Completed  
+- Learned how to handle different types of events in React such as click, double-click, hover, and form submission.  
+- Accessed the event object to prevent default behaviors like form reloads.  
+- Implemented `useState` to manage dynamic data within components using the `Counter` example.  
+- Refactored `App.jsx` to focus on event handling and state updates.
+
+### 🧠 Insights  
+- Events in React are managed through attributes like `onClick`, `onMouseOver`, and `onSubmit`, where event handler functions define the behavior.  
+- The event object allows more control over interactions, such as preventing default form submissions.  
+- `useState` is a hook that allows adding reactive state to functional components — it returns the current value and a setter function to update state and trigger re-rendering.
+
+### 📖 Key Concepts  
+- **Event Handling** – React lets you define functions that respond to user interactions.  
+- **Event Object** – Provides details about the event and allows control over default behaviors.  
+- **State in React** – A way to store and update data that affects the UI.  
+- **useState Hook** – Allows functional components to hold state without needing class components.
+
+### 🚀 Next Steps  
+- Implement interactive components like a Like Button to practice event-driven state updates.  
+- Deepen understanding of how state updates work, including callbacks and how closures affect state in React.  
+- Explore how React re-renders components and the nuances behind optimizing state changes.  
+- Learn advanced state patterns involving objects and arrays to manage complex component data.  
+- Continue documenting key insights and challenges in a concise format to reflect real-world usage.
+
+---
+
+### ✅ Continuous Learning Flow
+
+Each day builds on the previous one: starting from component basics and environment setup, moving into data-driven rendering with props, applying styling and debugging techniques, and then progressing into interactive state management with hooks. This structured approach ensures a deep, applied understanding of React, preparing me for real-world projects and advanced problem-solving.
+
+---
