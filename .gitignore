@@ -1,23 +1,28 @@
-# Dependency directories
+# Dependencies
 node_modules/
 
-# Logs
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Build directories
+# Build output
 dist/
-.vite/
+build/
 
-# Local environment files
-.env
+# Environment files
+.env*
 
-# IDE/editor folders
-.idea/
+# IDE files
 .vscode/
+.idea/
 
-# Duplicate or unnecessary folders
-node_modules - Copy/
+# OS files
+.DS_Store
+Thumbs.db
 
+# Config files (optional for learning)
+vite.config.js
+eslint.config.js
+package-lock.json
 
+# Public folder (if not needed)
+public/
+
+# Logs
+*.log
