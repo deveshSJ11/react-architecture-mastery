@@ -11,7 +11,12 @@ This is a part of my structured learning journey where I explore advanced React 
 ✔ JSX expressions, props, and conditional rendering  
 ✔ Dynamic styling and responsive layouts  
 ✔ Developer tools integration for debugging  
-✔ Structured documentation with learning logs and changelog
+✔ Structured documentation with learning logs and changelog  
+✔ Refactored ProductTab to handle dynamic product data  
+✔ Applied mobile-first responsive patterns for Amazon Cards  
+✔ Introduced interactivity with event handling (clicks, non-clicks, Event Object)
+✔ Learned and applied `useState` hook for managing component state
+
 
 ## 🛠 Tech Stack  
 - **React** – Component-driven UI architecture  
