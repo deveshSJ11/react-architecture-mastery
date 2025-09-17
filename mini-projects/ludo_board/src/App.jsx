@@ -1,12 +1,10 @@
-
-
 import './App.css';
-import LudoBoard from "./LudoBoard.jsx";
+import LudoBoard from './LudoBoard.jsx';
 
 function App() {
   return (
     <>
-      <LudoBoard/>
+      <LudoBoard />
     </>
   );
 }
